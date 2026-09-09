@@ -1,8 +1,8 @@
-/* Configurações Globais */
+/* Configurações de Fundo e Texto */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f4f1;
-    color: #333;
+    color: #333333;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -11,43 +11,46 @@ body {
     min-height: 100vh;
 }
 
-/* Cartão Principal */
+/* Caixa Principal do Conteúdo */
 .container {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     max-width: 500px;
     width: 100%;
     border-top: 8px solid #008751; /* Verde futebol */
 }
 
-/* Títulos */
+/* Título Principal */
 h1 {
     color: #008751;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 0;
     text-align: center;
 }
 
+/* Subtítulos (Maiores Vencedores e Último Campeão) */
 h2 {
     color: #005c36;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 25px;
     border-bottom: 2px solid #f1c40f; /* Detalhe em ouro */
-    padding-bottom: 5px;
+    padding-bottom: 6px;
 }
 
-/* Parágrafos */
+/* Parágrafos explicativos */
 p {
     line-height: 1.6;
-    color: #555;
+    color: #555555;
+    font-size: 15px;
 }
 
-/* Lista de Vencedores */
+/* Lista de Países Vencedores */
 ul {
     list-style: none;
     padding: 0;
+    margin: 15px 0;
 }
 
 li {
@@ -55,23 +58,29 @@ li {
     margin: 8px 0;
     padding: 12px 15px;
     border-radius: 6px;
-    border-left: 4px solid #f1c40f;
+    border-left: 4px solid #f1c40f; /* Borda dourada */
     font-weight: 500;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
-}
-
-li:hover {
-    background-color: #edf7f2;
-    transform: translateX(5px);
     transition: all 0.2s ease;
 }
 
-/* Destaque do Último Campeão */
+/* Efeito ao passar o mouse por cima dos países */
+li:hover {
+    background-color: #edf7f2;
+    transform: translateX(4px);
+}
+
+/* Caixa de Destaque para o Último Campeão */
 .campeao-box {
     background-color: #edf7f2;
     border: 1px solid #c3e6cb;
     padding: 15px;
     border-radius: 8px;
     margin-top: 15px;
+}
+
+.campeao-box p {
+    margin: 0;
 }

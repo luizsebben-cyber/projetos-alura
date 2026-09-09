@@ -1,108 +1,77 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copa do Mundo</title>
-    <style>
-        /* Configurações Globais */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f4f1;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+/* Configurações Globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f1;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-        /* Cartão Principal */
-        .container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-            width: 100%;
-            border-top: 8px solid #008751; /* Verde futebol */
-        }
+/* Cartão Principal */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    border-top: 8px solid #008751; /* Verde futebol */
+}
 
-        /* Títulos */
-        h1 {
-            color: #008751;
-            font-size: 28px;
-            margin-top: 0;
-            text-align: center;
-        }
+/* Títulos */
+h1 {
+    color: #008751;
+    font-size: 28px;
+    margin-top: 0;
+    text-align: center;
+}
 
-        h2 {
-            color: #005c36;
-            font-size: 20px;
-            margin-top: 25px;
-            border-bottom: 2px solid #f1c40f; /* Detalhe em ouro */
-            padding-bottom: 5px;
-        }
+h2 {
+    color: #005c36;
+    font-size: 20px;
+    margin-top: 25px;
+    border-bottom: 2px solid #f1c40f; /* Detalhe em ouro */
+    padding-bottom: 5px;
+}
 
-        /* Parágrafos */
-        p {
-            line-height: 1.6;
-            color: #555;
-        }
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    color: #555;
+}
 
-        /* Lista de Vencedores */
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+/* Lista de Vencedores */
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-        li {
-            background-color: #f9f9f9;
-            margin: 8px 0;
-            padding: 12px 15px;
-            border-radius: 6px;
-            border-left: 4px solid #f1c40f;
-            font-weight: 500;
-            display: flex;
-            justify-content: space-between;
-        }
+li {
+    background-color: #f9f9f9;
+    margin: 8px 0;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #f1c40f;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
 
-        li:hover {
-            background-color: #edf7f2;
-            transform: translateX(5px);
-            transition: all 0.2s ease;
-        }
+li:hover {
+    background-color: #edf7f2;
+    transform: translateX(5px);
+    transition: all 0.2s ease;
+}
 
-        /* Destaque do Último Campeão */
-        .campeao-box {
-            background-color: #edf7f2;
-            border: 1px solid #c3e6cb;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 15px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1>Copa do Mundo de Futebol</h1>
-        <p>A Copa do Mundo é o maior torneio de futebol do planeta, organizado pela FIFA a cada quatro anos.</p>
-        
-        <h2>Maiores Vencedores</h2>
-        <ul>
-            <li><span>Brasil</span> <span>5 títulos</span></li>
-            <li><span>Alemanha</span> <span>4 títulos</span></li>
-            <li><span>Itália</span> <span>4 títulos</span></li>
-            <li><span>Argentina</span> <span>3 títulos</span></li>
-        </ul>
-        
-        <h2>Último Campeão</h2>
-        <div class="campeao-box">
-            <p style="margin: 0;">A Espanha venceu a última edição realizada em 2026.</p>
-        </div>
-    </div>
-
-</body>
-</html>
+/* Destaque do Último Campeão */
+.campeao-box {
+    background-color: #edf7f2;
+    border: 1px solid #c3e6cb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
